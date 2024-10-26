@@ -48,3 +48,5 @@ We hope this README is helpful! If you have any questions or suggestions, please
 # Contact Details
 Email: dianyuanan@vip.qq.com  
 加入我的粉丝群: 联系微信: Miss-Y-s-Honey, 并注明来意
+查看我的教程频道 [bilibili@深深蓝hana](https://space.bilibili.com/618554?spm_id_from=333.1007.0.0)
+日常作品分享 [douyin@深深蓝](https://www.douyin.com/user/MS4wLjABAAAAJGu7yCfV3XwKoklBX62bivvat3micLxemdDT0FAmdcGfqbuFS3ItsKWKrBt5Hg16?from_tab_name=)
