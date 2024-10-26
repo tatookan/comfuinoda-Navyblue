@@ -1,6 +1,7 @@
 # Advanced Lying Sigma Sampler Node
 
 ## Introduction
+I looked at the Detail Daemon for Auto1111/Forge and tried porting it to Comfui and got remarkable results!
 The AdvancedLyingSigmaSampler is an advanced sampler node designed to dynamically adjust the sigma value during the sampling process for finer control. This node modifies the model's behavior by applying an adjustment factor within a specific sigma range, achieving more optimal sampling results.
 
 ## Demonstration
@@ -13,11 +14,11 @@ Denoise: 1
 
 | NO | OFF |
 |---|---|
-| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/NO.png" alt="Sampler Example" width="300"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/OFF.png" alt="Sampler Example" width="300"> |
+| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/NO.png" alt="Sampler Example" width="500"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/OFF.png" alt="Sampler Example" width="500"> |
 
 | AMINE-ON | AMINE-OFF |
 |---|---|
-| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE-ON.png" alt="Sampler Example" width="300"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE-ON.png" alt="Sampler Example" width="300"> |
+| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE2-ON.png" alt="Sampler Example" width="500"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE2-ON.png" alt="Sampler Example" width="500"> |
 
 ### T2T
 FLUX: GGUF-Q6K  
@@ -28,7 +29,7 @@ Denoise: 0.5
 
 | Import Image | On |
 |---|---|
-| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/IMAGE.png" alt="Sampler Example" width="300"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/M2M%26NO.png" alt="Sampler Example" width="300"> |
+| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/IMAGE.png" alt="Sampler Example" width="500"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/M2M%26NO.png" alt="Sampler Example" width="500"> |
 
 ## Usage Instructions
 Disable Floating Point Rounding: To achieve the best control effect, it is recommended to disable floating point rounding and restart comfui before using this node.
@@ -46,4 +47,4 @@ We hope this README is helpful! If you have any questions or suggestions, please
 
 # Contact Details
 Email: dianyuanan@vip.qq.com  
-Join Fan Group: Add WeChat: Miss-Y-s-Honey, and specify your purpose.
+加入我的粉丝群: 联系微信: Miss-Y-s-Honey, 并注明来意
