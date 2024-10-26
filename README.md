@@ -18,7 +18,7 @@ Denoise: 1
 
 | AMINE-ON | AMINE-OFF |
 |---|---|
-| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE2-ON.png" alt="Sampler Example" width="500"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE2-ON.png" alt="Sampler Example" width="500"> |
+| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE2-ON_.png" alt="Sampler Example" width="500"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE2-OFF.png" alt="Sampler Example" width="500"> |
 
 ### T2T
 FLUX: GGUF-Q6K  
