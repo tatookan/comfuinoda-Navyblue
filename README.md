@@ -10,14 +10,14 @@ Sampler: euler
 Scheduler: beta  
 Steps: 20  
 Denoise: 1  
-NO:  
-![Sampler Example](https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/NO.png)  
-OFF:  
-![Sampler Example](https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/OFF.png)  
-AMINE-ON:  
-![Sampler Example](https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE-ON.png)  
-AMINE-OFF:  
-![Sampler Example](https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE-ON.png)  
+
+| NO | OFF |
+|---|---|
+| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/NO.png" alt="Sampler Example" width="300"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/OFF.png" alt="Sampler Example" width="300"> |
+
+| AMINE-ON | AMINE-OFF |
+|---|---|
+| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE-ON.png" alt="Sampler Example" width="300"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/AMINE-ON.png" alt="Sampler Example" width="300"> |
 
 ### T2T
 FLUX: GGUF-Q6K  
@@ -25,10 +25,10 @@ Sampler: euler
 Scheduler: beta  
 Steps: 20  
 Denoise: 0.5  
-Import Image:  
-![Sampler Example](https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/IMAGE.png)  
-On:  
-![Sampler Example](https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/M2M%26NO.png)  
+
+| Import Image | On |
+|---|---|
+| <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/IMAGE.png" alt="Sampler Example" width="300"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/M2M%26NO.png" alt="Sampler Example" width="300"> |
 
 ## Usage Instructions
 Disable Floating Point Rounding: To achieve the best control effect, it is recommended to disable floating point rounding and restart comfui before using this node.
@@ -44,6 +44,6 @@ The value of the adjustment factor `dishonesty_factor` has a significant impact 
 
 We hope this README is helpful! If you have any questions or suggestions, please feel free to contact us.
 
-# contact details
- email：dianyuanan@vip.qq.com
- 入粉丝群+微信：Miss-Y-s-Honey，注明来意。
+# Contact Details
+Email: dianyuanan@vip.qq.com  
+Join Fan Group: Add WeChat: Miss-Y-s-Honey, and specify your purpose.
