@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from typing import TYPE_CHECKING
-import inspect  # 导入 inspect 模块
+import inspect  
 
 from comfy.samplers import KSAMPLER
 import numpy as np
@@ -58,7 +58,7 @@ def advanced_lying_sigma_sampler(
         )
 
 class AdvancedLyingSigmaSamplerNode:
-    DESCRIPTION = "An advanced sigma sampler with smooth interpolation and additional controls."
+    DESCRIPTION = "高级sigma控制器，使用前最好关闭float rounding并重启comfui,以达到最佳控制效果|For advanced sigma controllers, it is best to turn off float rounding and restart comfui before use for optimal control."
     CATEGORY = "sampling/custom_sampling/advanced_samplers"
     RETURN_TYPES = ("SAMPLER",)
     FUNCTION = "initialize"
@@ -71,11 +71,11 @@ class AdvancedLyingSigmaSamplerNode:
                 "dishonesty_factor": (
                     "FLOAT",
                     {
-                        "default": -0.05,
+                        "default": -0.1,
                         "min": -1.0,
                         "max": 1.0,
                         "step": 0.001,
-                        "tooltip": "Adjusts the sigma by this factor in the specified range."
+                        "tooltip": "默认值-0.1，一般来说这是一个较大值|Default value -0.1, which is generally a larger value."
                     }
                 ),
                 "start_percent": (
@@ -85,7 +85,7 @@ class AdvancedLyingSigmaSamplerNode:
                         "min": 0.0,
                         "max": 1.0,
                         "step": 0.01,
-                        "tooltip": "Sampling start percentage."
+                        "tooltip": "bilibili@深深蓝hana."
                     }
                 ),
                 "end_percent": (
@@ -95,7 +95,7 @@ class AdvancedLyingSigmaSamplerNode:
                         "min": 0.0,
                         "max": 1.0,
                         "step": 0.01,
-                        "tooltip": "Sampling end percentage."
+                        "tooltip": "bilibili@深深蓝hana."
                     }
                 ),
                 "smooth_factor": (
@@ -105,7 +105,7 @@ class AdvancedLyingSigmaSamplerNode:
                         "min": 0.0,
                         "max": 1.0,
                         "step": 0.01,
-                        "tooltip": "Controls smoothness of sigma adjustment."
+                        "tooltip": "bilibili@深深蓝hana."
                     }
                 ),
             }
