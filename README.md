@@ -12,7 +12,7 @@ Scheduler: beta
 Steps: 20  
 Denoise: 1  
 
-| NO | OFF |
+| ON | OFF |
 |---|---|
 | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/NO.png" alt="Sampler Example" width="500"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/OFF.png" alt="Sampler Example" width="500"> |
 
@@ -27,7 +27,7 @@ Scheduler: beta
 Steps: 20  
 Denoise: 0.5  
 
-| Import Image | On |
+| Import Image | Output Image |
 |---|---|
 | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/IMAGE.png" alt="Sampler Example" width="500"> | <img src="https://github.com/tatookan/comfuinoda-Navyblue/blob/main/demo/M2M%26NO.png" alt="Sampler Example" width="500"> |
 
