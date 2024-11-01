@@ -1,8 +1,9 @@
 # Advanced Lying Sigma Sampler Node
 
 ## Introduction
-I looked at the Detail Daemon for Auto1111/Forge and tried porting it to Comfui and got remarkable results!
-The AdvancedLyingSigmaSampler is an advanced sampler node designed to dynamically adjust the sigma value during the sampling process for finer control. This node modifies the model's behavior by applying an adjustment factor within a specific sigma range, achieving more optimal sampling results.
+the LyingSigmaSampler is a very useful node, as many users find it difficult to understand complex parameters. For these users, they might only need a simple, lightweight, and easy-to-use node. However, I have observed that LyingSigmaSampler does not control the noise mask smoothly enough, or in other words, it cannot control it more precisely. LyingSigmaSampler has a great advantage, of course, other nodes are also great. They can be applied to most models, including SD3.5, and they work well, which is a challenge for users because they have to deal with different noise masks. Therefore, I have added smoothing processing to LyingSigmaSampler in the hope of helping more people.
+
+AdvancedLyingSigmaSampler is an alternative to the LyingSigmaSampler node, a simple advanced sampler node for dynamically adjusting sigma values during sampling for finer control. The node modifies the model behaviour by applying tuning factors within a specific sigma range to achieve more optimal sampling results.
 
 ## Demonstration
 ### T2M
@@ -44,6 +45,12 @@ Before using this node, ensure that floating point rounding is disabled and comf
 The value of the adjustment factor `dishonesty_factor` has a significant impact on the results. It is recommended to start with the default value and gradually adjust it.
 
 We hope this README is helpful! If you have any questions or suggestions, please feel free to contact us.
+
+## Credits
+
+- Detail Daemon concept and schedule generation function from muerrilla: https://github.com/muerrilla/sd-webui-detail-daemon/
+- ComfyUI sampler implementation and schedule interpolation, as well as Lying Sigma Sampler, by https://github.com/blepping/
+
 
 # Contact Details
 Email: dianyuanan@vip.qq.com  
