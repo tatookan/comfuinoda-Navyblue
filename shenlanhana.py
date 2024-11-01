@@ -1,3 +1,5 @@
+# Based on the concept from https://github.com/muerrilla/sd-webui-detail-daemon
+# Original code courtesy from https://github.com/blepping/
 from __future__ import annotations
 
 from typing import TYPE_CHECKING
