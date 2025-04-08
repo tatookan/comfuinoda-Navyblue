@@ -1,0 +1,14 @@
+[project]
+name = "comfuinoda-navyblue"
+description = ""
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/tatookan/comfuinoda-Navyblue"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfuinoda-Navyblue"
+Icon = ""
