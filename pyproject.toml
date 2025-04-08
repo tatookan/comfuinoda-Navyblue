@@ -1,7 +1,7 @@
 [project]
 name = "comfuinoda-navyblue"
 description = "the LyingSigmaSampler is a very useful node, as many users find it difficult to understand complex parameters. For these users, they might only need a simple, lightweight, and easy-to-use node. However, I have observed that LyingSigmaSampler does not control the noise mask smoothly enough, or in other words, it cannot control it more precisely. LyingSigmaSampler has a great advantage, of course, other nodes are also great. They can be applied to most models, including SD3.5, and they work well, which is a challenge for users because they have to deal with different noise masks. Therefore, I have added smoothing processing to LyingSigmaSampler in the hope of helping more people."
-version = "1.0.2"
+version = "1.0.0"
 license = {file = "LICENSE"}
 
 [project.urls]
